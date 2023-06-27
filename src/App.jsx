@@ -1,10 +1,10 @@
 //home
 import "./App.css";
 //portfolio pages
-import AboutMePage from "./components/AboutMePage";
-import ResumePage from "./components/ResumePage";
-import ProjectsPage from "./components/ProjectsPage";
-import ResourcesPage from "./components/ResourcesPage";
+import AboutMePage from "./pages/AboutMePage";
+import ResumePage from "./pages/ResumePage";
+import ProjectsPage from "./pages/ProjectsPage";
+import ResourcesPage from "./pages/ResourcesPage";
 //navigation
 // import { useState } from 'react';
 import NavBar from "./components/NavBar";
@@ -16,10 +16,6 @@ export default function App() {
       <main>
         <NavBar />
         <SocialMediaBar />
-        <AboutMePage />
-        <ResumePage />
-        <ProjectsPage />
-        <ResourcesPage />
       </main>
       And here is where I put some stuff in order to start my React app.
     </div>
